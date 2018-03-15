@@ -1,42 +1,24 @@
-@import 'colours'; 
-
-$tan:rgba(195,171,139,0.41);
-$salmon: rgba(255,177,174,0.65);
-$pink: rgba(251,192,230,0.69);
-$yellow: rgba(239,224,39,0.41);
-$blue:rgba(123,166,234,0.41);
-$purple: rgba(178,133,255,0.44);
-$teal: rgba(62,255,212,0.21);
-
-
+/* BRAND COLOURS */
+/* DROP SHADOWS */
+/* CATEGORY COLOURS */
 /* CATEGORIES  */
+.goodUx {
+  background-color: rgba(195, 171, 139, 0.41); }
 
-	.goodUx {
-	  background-color: $tan; 
-	}
+.badUx {
+  background-color: rgba(255, 177, 174, 0.65); }
 
-	.badUx {
-	background-color: $salmon;
-	}
+.uxDesign {
+  background: rgba(251, 192, 230, 0.69); }
 
-	.uxDesign {
-		background: $pink;
-	}
+.playlists {
+  background: rgba(239, 224, 39, 0.41); }
 
-	.playlists {
-		background: $yellow;
-	}
+.traveling {
+  background: rgba(123, 166, 234, 0.41); }
 
-	.traveling {
-		background: $blue;
-	}
+.books {
+  background: rgba(178, 133, 255, 0.44); }
 
-	.books {
-		background: $purple;
-	}
-
-	.graphicDesign {
-		background: $teal;
-	}
-
-
+.graphicDesign {
+  background: rgba(62, 255, 212, 0.21); }

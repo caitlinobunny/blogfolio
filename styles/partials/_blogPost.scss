@@ -1,0 +1,60 @@
+@import 'colours.scss';
+@import 'fonts.scss';
+
+/*  Blog Post Container */
+
+.blogPost {
+	width: 100%;
+	background-color: $white;
+	border: 1px solid $lightgrey; 
+	box-shadow: $shadow;
+	margin: 0 0 44px 0;
+	padding:23px 23px;
+	transition: all .2s ease-in-out;
+}
+
+.blogPost:hover {
+	transform: scale(1.02);
+	box-shadow: $shadowHover;
+}
+
+/*  Category Tag  */
+.category {
+	margin-bottom: 15px;
+}
+
+
+
+/*  FEATURE IMAGE  */
+
+.featuredImage { 
+	margin: 28px 0;
+}
+
+.featuredImage img {
+	width: 100%;
+	height: auto;
+}
+
+
+p.postPreview {
+	font-size: 13px;
+	color: #404F60;
+	line-height: 23px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

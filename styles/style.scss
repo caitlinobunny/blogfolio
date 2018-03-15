@@ -6,22 +6,20 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-
-
 /* GENERAL STYLES */
-@import 'partials/colours';
-@import 'partials/categories';
-@import 'partials/fonts';
+@import 'partials/categories.scss';
+@import 'partials/colours.scss';
+@import 'partials/fonts.scss';
 
 
 /* LAYOUT */
-@import 'partials/layout';
+@import 'partials/layout.scss';
 
 
 
 /* ARTICLE */
-@import 'partials/blogPost';
-@import 'partials/article';
+@import 'partials/blogPost.scss';
+@import 'partials/article.scss';
 
 
 
