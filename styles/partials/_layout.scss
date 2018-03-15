@@ -3,9 +3,7 @@
 @import 'fonts.scss';
 
 body {
-	font-family: 'Roboto Mono', monospace;
 	font-family: 'Open Sans', sans-serif;
-    font-family: sans-serif;
 
     display: block;
 
@@ -43,12 +41,17 @@ nav {
 	flex-wrap: nowrap;	
 	height: 100%;
 	justify-content: flex-start;
-	overflow: hidden;
 	padding: 44px 0;
 	max-width: 232px;
 	min-width: 232px;
 	background: $white;
 } 
+
+.content-container {
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
 
 .flex-item {
 	display: flex;
