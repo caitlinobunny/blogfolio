@@ -1,0 +1,55 @@
+@import 'colours';
+@import 'fonts';
+
+section { 
+width: 100vw;
+}
+
+
+header {
+	padding: 23px 0;
+	background: $white;
+	box-shadow: $shadow;
+	border-bottom: 1px solid $lightgrey;
+	opacity: 0.8;
+
+}
+
+.header-flex {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 23px;
+
+}
+
+
+aside.blog-post-container {
+	margin: 44px auto;
+	width: 80%;
+}
+
+
+.article-width {
+	margin: 0 auto;
+	padding: 0 23px;
+}
+
+
+.featuredImage {
+	margin: 32px auto;
+	width: 100%;
+}
+
+
+
+
+
+p.post-body {
+	font-size: 18px;
+	line-height:44px;
+
+
+
+}

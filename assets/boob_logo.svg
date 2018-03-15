@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Boob Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.1467407%" id="radialGradient-1">
+            <stop stop-color="#FFD5C2" offset="0%"></stop>
+            <stop stop-color="#FFC4A7" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.0568247%" id="radialGradient-2">
+            <stop stop-color="#FEA291" stop-opacity="0.694689764" offset="0%"></stop>
+            <stop stop-color="#FF9986" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-63.000000, -58.000000)">
+        <g id="Side-Nav" transform="translate(0.000000, -1.000000)">
+            <g id="Boob-Icon" transform="translate(63.000000, 59.000000)">
+                <circle id="Oval" fill="url(#radialGradient-1)" cx="50" cy="50" r="50"></circle>
+                <circle id="Oval" fill="url(#radialGradient-2)" cx="49.8873874" cy="50.1126126" r="13.8513514"></circle>
+                <circle id="Oval" fill-opacity="0.920544611" fill="#EC797F" cx="50" cy="50" r="4.95495495"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
