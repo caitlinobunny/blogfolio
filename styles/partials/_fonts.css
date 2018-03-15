@@ -1,137 +1,99 @@
-@import 'colours';
-
-
+/* BRAND COLOURS */
+/* DROP SHADOWS */
+/* CATEGORY COLOURS */
 /* HEADINGS */
-
 h1, h2, h3, h4, h5, h6, a {
-	font-family: 'Roboto Mono', monospace;
-	margin: 0 0;
-	letter-spacing: 0.8px;
-}
+  font-family: 'Roboto Mono', monospace;
+  margin: 0 0;
+  letter-spacing: 0.8px; }
 
 /*BLOG POST >  TITLES */
-h1 { 
-	font-size: 28px; 
-	line-height: 32px;
-	color: $black;
-	 }
+h1 {
+  font-size: 28px;
+  line-height: 32px;
+  color: #222222; }
 
 /*BLOG POST > SUBTITLES */
 h2 {
-	font-size: 16px;
-	font-weight: normal;
-	color: $bluegrey;
-	line-height: 21px;
-}
+  font-size: 16px;
+  font-weight: normal;
+  color: #697582;
+  line-height: 21px; }
 
 /*BLOG POST > hello world */
 h3 {
-	color: $black;
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 23px;
-}
+  color: #222222;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px; }
 
-/* NAV > I write about */ 
+/* NAV > I write about */
 /*BLOG POST > CATEGORIES */
 h4 {
-	color: $black;
-	font-size: 14px; 
-	font-style: italic;
-	font-weight: bold;
-	line-height: 16px;
-}
+  color: #222222;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 16px; }
 
-/*BLOG POST > Meta Data */ 
+/*BLOG POST > Meta Data */
+h5 {
+  font-size: 10px;
+  font-weight: bold;
+  color: #697582;
+  line-height: 16px; }
 
-h5 { 
-	font-size: 10px;
-	font-weight: bold;
-	color: $bluegrey;
-	line-height: 16px;
-	}
-
-/*BLOG POST > READ MORE */ 
+/*BLOG POST > READ MORE */
 h6 {
-	font-size:11px;
-	font-weight: bold;
-	color: $bluegrey;
-	line-height: 18px;
-}
-
-
-
+  font-size: 11px;
+  font-weight: bold;
+  color: #697582;
+  line-height: 18px; }
 
 /* LISTS */
-
 ul {
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-}
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
 
 ul li {
-	margin: 0 0 0 0;
-	text-decoration: none;
-	list-style-type: none;
-	list-style-position: inside;
-}
-
-
+  margin: 0 0 0 0;
+  text-decoration: none;
+  list-style-type: none;
+  list-style-position: inside; }
 
 /* LINKS */
-
-
-
 /* Navgigation */
-
 nav a {
   font-weight: 600;
   font-size: 16px;
   text-align: center;
-  line-height: 44px;
-   }
+  line-height: 44px; }
 
+/* Links */
+a.linkUnselected {
+  color: #697582;
+  font-style: italic;
+  text-decoration: none; }
 
-
- /* Links */
-
-	a.linkUnselected {
-  	 color: $bluegrey;
- 	 font-style: italic;
- 	 text-decoration: none;
- 	}
-
-	 a.linkSelected {
-	  color: $black;
-	  text-decoration: none;
-	 }
-
-
+a.linkSelected {
+  color: #222222;
+  text-decoration: none; }
 
 /* Categories */
-
 a.tag {
-	color: $black;
-  	display: inline;	
-	font-size: 14px; 
-	font-style: italic;
-	font-weight: bold;
-	height: 23px;
-	line-height: 16px;
-  	padding: 4px 8px; 
-  	text-decoration: none;
-  }
-
-
+  color: #222222;
+  display: inline;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  height: 23px;
+  line-height: 16px;
+  padding: 4px 8px;
+  text-decoration: none; }
 
 /* ALL LINKS (HOVER) */
-
 a:hover, a.tag:hover {
-	text-decoration: line-through;
-}
-
-
+  text-decoration: line-through; }
 
 p {
-	font-family: 'Open Sans', sans-serif;
-}
+  font-family: 'Open Sans', sans-serif; }
